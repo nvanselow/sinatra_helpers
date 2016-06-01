@@ -7,6 +7,7 @@ helps create `<select>`, but others will probably be added in the future.
 **Purpose:** This helper creates a select box with an array of options. It will also select a specific option if a current one is provided.
 
 *Instructions:*
+
 1. Download the `input_helper.rb` file from the `modules` folder and include it in your project
 
 2. In your main Sinatra app (usually `server.rb`), make sure to `require_relative "input_helper.rb"` (depending on where you save the file,
