@@ -2,6 +2,8 @@
 Dealing with forms in Sinatra has been tricky, so I created the modules here to help make it a little less painful. It currently only
 helps create `<select>`, but others will probably be added in the future.
 
+There are some more complex functions available in [Sinatra::FormHelpers](http://www.rubydoc.info/github/BenFenner/sinatra-formhelpers-ng/Sinatra/FormHelpers)
+
 ## SelectHelper
 
 **Purpose:** This helper creates a select box with an array of options. It will also select a specific option if a current one is provided.
