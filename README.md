@@ -23,4 +23,5 @@ require_relative may need to include a path (e.g., `require_relative "helpers/in
 <%= create_select(name_of_select, options, currently_selected_option) %>
 ```
 (*Note:* Options is an array of strings in the current version)
-(*Note:* Make sure to use the snowcones with the equal sign)
+
+(*Note:* Make sure to use the snow cones (`<%=`) with the equal sign)
