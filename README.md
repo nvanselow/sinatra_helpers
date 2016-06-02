@@ -35,7 +35,7 @@ In your view (e.g., `new.erb`), you can now use the following:
 In your view (e.g., `new.erb`), you can now use the following:
 
 ```
-<%= create_radio_buttons(name_of_select, options, currently_selected_option) %>
+<%= create_radio_buttons(name_of_radios, options, currently_selected_option) %>
 ```
 (*Note:* ID will be set to the same as the option)
 
