@@ -21,7 +21,7 @@ See below for different methods to use to create your form.
 
 ### Select List (Dropdown)
 
-4. In your view (e.g., `new.erb`), you can now use the following:
+In your view (e.g., `new.erb`), you can now use the following:
 
 ```
 <%= create_select(name_of_select, options, currently_selected_option) %>
@@ -32,7 +32,7 @@ See below for different methods to use to create your form.
 
 ### Radio Buttons
 
-4. In your view (e.g., `new.erb`), you can now use the following:
+In your view (e.g., `new.erb`), you can now use the following:
 
 ```
 <%= create_radio_buttons(name_of_select, options, currently_selected_option) %>
