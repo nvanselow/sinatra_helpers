@@ -30,7 +30,7 @@ See below for different methods to use to create your form.
 
 (*Note:* Make sure to use the snow cones (`<%=`) with the equal sign)
 
-### Radio buttons
+### Radio Buttons
 
 4. In your view (e.g., `new.erb`), you can now use the following:
 
