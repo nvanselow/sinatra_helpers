@@ -17,11 +17,28 @@ require_relative may need to include a path (e.g., `require_relative "helpers/in
 
 3. In the main Sinatra app (usually `server.rb`), add the following line at the top somewhere - `include InputHelper`
 
+See below for different methods to use to create your form.
+
+### Select List (Dropdown)
+
 4. In your view (e.g., `new.erb`), you can now use the following:
 
 ```
 <%= create_select(name_of_select, options, currently_selected_option) %>
 ```
+(*Note:* Options is an array of strings in the current version)
+
+(*Note:* Make sure to use the snow cones (`<%=`) with the equal sign)
+
+### Radio buttons
+
+4. In your view (e.g., `new.erb`), you can now use the following:
+
+```
+<%= create_radio_buttons(name_of_select, options, currently_selected_option) %>
+```
+(*Note:* ID will be set to the same as the option)
+
 (*Note:* Options is an array of strings in the current version)
 
 (*Note:* Make sure to use the snow cones (`<%=`) with the equal sign)
