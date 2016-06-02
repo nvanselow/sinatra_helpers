@@ -17,4 +17,12 @@ describe InputHelper do
       expect(helper.create_select(select_name, options, selected)).to eq(select_string)
     end
   end
+
+  describe ".create_radio_buttons" do
+    it "creates a list of radio buttons" do
+      radio_string = "<input type=\"radio\" name=\"my_select\" id=\"my_select\" value=\"option 1\" /> option 1<br /><input type=\"radio\" name=\"my_select\" id=\"my_select\" value=\"option 2\" checked /> option 2<br />"
+
+      expect(helper.create_radio_buttons(select_name, options, selected)).to eq(radio_string)
+    end
+  end
 end
